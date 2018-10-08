@@ -1,0 +1,23 @@
+name: dat158
+dependencies:
+- python>=3.6.0
+- pip
+- ipython
+- ipywidgets
+- jupyter
+- numpy
+- matplotlib
+- pandas
+- scikit-learn
+- ipykernel
+- conda-forge::jupyter_contrib_nbextensions
+- conda-forge::jupyterlab
+- scipy
+- seaborn
+- pytorch::pytorch
+- pip:
+  - pip
+  - torchvision
+  - opencv-python
+  - kaggle
+  - xgboost
